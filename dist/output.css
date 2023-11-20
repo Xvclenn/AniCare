@@ -568,17 +568,33 @@ video {
   }
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.flex {
+  display: flex;
 }
 
-.font-bold {
-  font-weight: 700;
+.gap-10 {
+  gap: 2.5rem;
 }
 
-.underline {
-  text-decoration-line: underline;
+.fill-black {
+  fill: #000;
+}
+
+.fill-white {
+  fill: #fff;
+}
+
+.stroke-white {
+  stroke: #fff;
+}
+
+.stroke-1 {
+  stroke-width: 1;
+}
+
+.ring-white {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity));
 }
 
 :root {
