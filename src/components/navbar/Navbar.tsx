@@ -30,8 +30,8 @@ const links = [
 
 export const Navbar = () => {
 	return (
-		<div className="nav">
-			<div className="bg-slate-300 flex flex-col items-center py-5 px-20">
+		<div className="nav bg-slate-300">
+			<div className=" flex flex-col items-center py-5 px-20">
 				<Link href="#">
 					<img className="p-3" src="logo1.png" alt="logo" width="200px" />
 				</Link>
