@@ -2,8 +2,9 @@ import { link } from "fs";
 import Link from "next/link";
 import React from "react";
 import style from "./Navbar.module.css";
-import { FaSearch, FaShoppingCart, FaUser } from "react-icons/fa";
+import { FaRegUser } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
+import { IoCartOutline, IoSearchSharp } from "react-icons/io5";
 
 const links = [
 	{
@@ -36,10 +37,10 @@ export const Navbar = () => {
 					<img className="p-3" src="logo1.png" alt="logo" width="200px" />
 				</Link>
 				<div className="flex justify-between w-[100%]">
-					<CiSearch size="25px" />
-					<div className="right flex gap-2">
-						<FaUser size="21px" />
-						<FaShoppingCart size="21px" />
+					<IoSearchSharp size="25px" />
+					<div className="right flex gap-2 items-center">
+						<FaRegUser size="21px" />
+						<IoCartOutline size="25px" />
 					</div>
 				</div>
 				<div className="mt-[1.05rem]">
